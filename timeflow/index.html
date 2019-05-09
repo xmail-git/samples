@@ -7,7 +7,22 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-67589403-8');
+
+  (function(sa,fbc){function load(f,c){var a=document.createElement('script');
+  a.async=1;a.src=f;var s=document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(a,s);}load(sa);window.onload = function() {firebase.initializeApp(fbc).performance();};
+  })('https://www.gstatic.com/firebasejs/6.0.1/firebase-performance-standalone.js',
+  {
+    apiKey: "AIzaSyD9DNsFeqZ7giqR4YtNFSaCy_96rsbwVM8",
+    authDomain: "kevmoo-firebase-flutter.firebaseapp.com",
+    databaseURL: "https://kevmoo-firebase-flutter.firebaseio.com",
+    projectId: "kevmoo-firebase-flutter",
+    storageBucket: "kevmoo-firebase-flutter.appspot.com",
+    messagingSenderId: "415711645571",
+    appId: "1:415711645571:web:28bb51078f5d778b"
+  });
 </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Timeflow - Flutter web sample</title>
